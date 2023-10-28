@@ -1,0 +1,24 @@
+#include<stdio.h>
+int main()
+{
+int a,b,c,option;
+printf("1)add \n2)mul\n3)sub\n4)div\n");
+printf("enter youer option=");
+scanf("%d",&option);
+printf("enter a value=");
+scanf("%d",&a);
+printf("enter b value=");
+scanf("%d",&b);
+switch(option){
+case 1:c=a+b;
+      break;
+case 2:c=a*b;
+      break;
+case 3:c=a-b;
+      break;
+case 4:c=a/b;
+      break;
+deafault:c=a+b;
+}
+printf("output=%d",c);
+}
