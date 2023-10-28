@@ -6,7 +6,7 @@ I1+I2+I3-I4-I5=0;
 I1+I2+I3=I4+I5;
 I1+I2+I3 Entering current at node (or) junction
 -I4-I5    leaving current at the node (or) junction
-
++
 -----------------------------------------------------------------------
 
 KVL
