@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+int marks;
+printf("enter the markes ");
+scanf("%d",&marks);
+if(marks>=35) {
+printf("passed");
+}
+else{
+printf("failed");
+}
+}
