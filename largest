@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main(){
+    int a=9,b=13,c=1;
+    if(a>b&&a>c){
+        printf("a is the largest=%d",a);
+    }
+    else if(b>c&&b>a){
+        printf("b is the largest=%0d",b);
+    }
+    else printf("c is the largest=%0d",c);
+    
+}
