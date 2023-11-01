@@ -1,0 +1,11 @@
+
+#include <stdio.h>
+
+void functionrun(char name[]){
+    printf("inside the function\n \"hello %s\"\n",name);
+}
+int main(){
+    functionrun("vamshi");
+    functionrun("navya");
+
+}
