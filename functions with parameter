@@ -1,0 +1,11 @@
+
+#include <stdio.h>
+
+void functionrun(char name[],int age){
+    printf("inside the function\n \"hello %s\"\n age=%0d\n",name,age);
+}
+int main(){
+    functionrun("vamshi",10);
+    functionrun("navya",12);
+
+}
