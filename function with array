@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+void functionarray(int array[4]){
+    for(int i=0;i<4;i++){
+        printf("arry[%0d]=%0d\n",i,array[i]);
+    }
+}
+int main(){
+    
+    int array[4]={1,2,3,4};
+    functionarray(array);
+    
+}
